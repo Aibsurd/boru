@@ -24,7 +24,11 @@ export default defineConfig(({ mode }) => ({
       compress: {
         drop_console: mode === 'production',
         drop_debugger: mode === 'production',
-        pure_funcs: mode === 'production' ? ['console.log', 'console.info', 'console.debug'] : []
+        pure_funcs: mode === 'production' ? ['console.log', 'console.info', 'console.debug'] : [],
+        passes: 2
+      },
+      mangle: {
+        safari10: true
       }
     },
     rollupOptions: {
@@ -54,12 +58,20 @@ export default defineConfig(({ mode }) => ({
         // Optimize chunk names for caching
         chunkFileNames: 'assets/[name]-[hash].js',
         entryFileNames: 'assets/[name]-[hash].js',
-        assetFileNames: 'assets/[name]-[hash].[ext]'
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+        // Compact output
+        compact: true
       }
     },
     chunkSizeWarningLimit: 500,
     cssCodeSplit: true,
-    assetsInlineLimit: 4096
+    assetsInlineLimit: 4096,
+    // Enable module preload for faster loading
+    modulePreload: {
+      polyfill: true
+    },
+    // Target modern browsers for smaller bundles
+    target: ['es2020', 'edge88', 'firefox78', 'chrome87', 'safari14']
   },
   define: {
     'process.env.NODE_ENV': JSON.stringify(mode)
