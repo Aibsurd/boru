@@ -28,7 +28,7 @@ const Hero = memo(() => {
             
             <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl text-zinc-900 dark:text-white leading-[1.05] mb-16 tracking-tight font-medium animate-slide-up text-balance will-change-transform transition-colors duration-500">
               You build the <br />
-              <span className="text-zinc-500 dark:text-zinc-300 transition-colors duration-500">vision.</span>
+              <span className="text-zinc-500 dark:text-zinc-500 transition-colors duration-500">vision.</span>
             </h1>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 max-w-4xl">
