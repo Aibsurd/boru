@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Moon, Sun } from './Icons';
 import { useTheme } from '../context/ThemeContext';
 
-const ThemeToggle: React.FC = () => {
+const ThemeToggle: React.FC = memo(() => {
   const { theme, toggleTheme } = useTheme();
 
   return (
@@ -25,6 +25,6 @@ const ThemeToggle: React.FC = () => {
       </div>
     </button>
   );
-};
+});
 
 export default ThemeToggle;

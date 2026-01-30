@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { RefreshCw } from 'lucide-react';
 
 interface LazyLoadErrorProps {
@@ -6,7 +6,7 @@ interface LazyLoadErrorProps {
   onRetry?: () => void;
 }
 
-const LazyLoadError: React.FC<LazyLoadErrorProps> = ({ componentName, onRetry }) => {
+const LazyLoadError: React.FC<LazyLoadErrorProps> = memo(({ componentName, onRetry }) => {
   const handleRetry = () => {
     if (onRetry) {
       onRetry();
@@ -41,6 +41,6 @@ const LazyLoadError: React.FC<LazyLoadErrorProps> = ({ componentName, onRetry })
       </div>
     </div>
   );
-};
+});
 
 export default LazyLoadError;
