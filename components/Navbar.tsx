@@ -153,7 +153,7 @@ const Navbar: React.FC = () => {
               B<img 
                 src="/logo-o.png" 
                 alt="" 
-                className="h-[0.75em] w-auto mx-[0.08em] inline-block align-middle relative top-[-0.03em]" 
+                className="h-[0.75em] w-auto mx-[0.08em] inline-block align-middle" 
                 style={{ 
                   transform: `rotateY(${logoRotation}deg)`,
                   transformStyle: 'preserve-3d',
