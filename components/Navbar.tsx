@@ -11,25 +11,22 @@ const Navbar: React.FC = () => {
   const isHomePage = location.pathname === '/';
 
   useEffect(() => {
-    let lastScrollY = window.scrollY;
+    let lastScrollY = window.pageYOffset;
     let velocity = 0;
     let currentRotation = 0;
     let animationFrameId: number;
     let lastTime = Date.now();
     let scrollTimeout: NodeJS.Timeout;
+    let ticking = false;
 
     const applyInertia = () => {
       const now = Date.now();
-      const deltaTime = (now - lastTime) / 1000; // Convert to seconds
+      const deltaTime = (now - lastTime) / 1000;
       lastTime = now;
 
-      // Apply friction to velocity (exponential decay)
-      velocity *= Math.pow(0.92, deltaTime * 60); // Friction coefficient adjusted for 60fps
-
-      // Update rotation
+      velocity *= Math.pow(0.92, deltaTime * 60);
       currentRotation += velocity * deltaTime * 60;
 
-      // Stop animation when velocity is very small
       if (Math.abs(velocity) > 0.1) {
         setLogoRotation(currentRotation);
         animationFrameId = requestAnimationFrame(applyInertia);
@@ -39,34 +36,32 @@ const Navbar: React.FC = () => {
     };
 
     const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const scrollDelta = scrollY - lastScrollY;
-      
-      setIsScrolled(scrollY > 50);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollY = window.pageYOffset;
+          const scrollDelta = scrollY - lastScrollY;
+          
+          setIsScrolled(scrollY > 50);
 
-      // Calculate velocity based on scroll delta
-      // Positive scroll = rotate forward, negative = rotate backward
-      velocity = scrollDelta * 2; // Sensitivity multiplier
+          velocity = scrollDelta * 2;
+          currentRotation += scrollDelta * 0.5;
+          setLogoRotation(currentRotation);
 
-      // Update rotation immediately during scroll
-      currentRotation += scrollDelta * 0.5;
-      setLogoRotation(currentRotation);
+          lastScrollY = scrollY;
+          ticking = false;
 
-      lastScrollY = scrollY;
+          clearTimeout(scrollTimeout);
+          if (animationFrameId) {
+            cancelAnimationFrame(animationFrameId);
+          }
 
-      // Clear existing timeout
-      clearTimeout(scrollTimeout);
-
-      // Cancel existing inertia animation
-      if (animationFrameId) {
-        cancelAnimationFrame(animationFrameId);
+          scrollTimeout = setTimeout(() => {
+            lastTime = Date.now();
+            animationFrameId = requestAnimationFrame(applyInertia);
+          }, 50);
+        });
+        ticking = true;
       }
-
-      // Start inertia after scroll stops
-      scrollTimeout = setTimeout(() => {
-        lastTime = Date.now();
-        animationFrameId = requestAnimationFrame(applyInertia);
-      }, 50); // Wait 50ms after last scroll event
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -154,6 +149,8 @@ const Navbar: React.FC = () => {
               <img 
                 src="/logo-o.png" 
                 alt="" 
+                width="24"
+                height="24"
                 className="h-[0.8em] w-auto inline-block self-center" 
                 style={{ 
                   transform: `rotateY(${logoRotation}deg)`,
