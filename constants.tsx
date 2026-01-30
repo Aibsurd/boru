@@ -104,6 +104,18 @@ export const INSIGHTS_DATA: InsightItem[] = [
         <p className="mb-6">
           Failure to meet substance requirements results in loss of the 0% Free Zone tax rate, application of the standard 9% corporate tax rate, potential penalties ranging from AED 10,000 to AED 1,000,000, interest charges on unpaid tax, and reputational risk with UAE regulatory authorities. The Federal Tax Authority (FTA) conducts substance audits with increasing frequency.
         </p>
+        
+        <div className="mt-16 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+          <h3 className="text-xl font-serif font-medium mb-4">References & Sources</h3>
+          <ol className="text-sm text-zinc-600 dark:text-zinc-400 space-y-2 list-decimal list-inside">
+            <li><a href="https://www.moec.gov.ae/en/business-license-search" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">UAE Ministry of Economy - Federal Decree-Law No. 47 of 2022</a></li>
+            <li><a href="https://tax.gov.ae/" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">UAE Federal Tax Authority - Corporate Tax Guidelines</a></li>
+            <li><a href="https://www.oecd.org/tax/transfer-pricing/" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">OECD Transfer Pricing Guidelines for Multinational Enterprises</a></li>
+          </ol>
+          <p className="text-xs text-zinc-500 dark:text-zinc-600 mt-4 italic">
+            Last updated: January 15, 2025. Information based on current UAE tax legislation and OECD guidelines.
+          </p>
+        </div>
       </>
     )
   },
@@ -147,6 +159,19 @@ export const INSIGHTS_DATA: InsightItem[] = [
         <p className="mb-6">
           Substance requirements include board meetings held in the UK with UK-resident directors making strategic decisions, adequate office space and administrative support in the UK, UK bank accounts and professional advisors (accountants, lawyers), demonstrable economic substance beyond mere registration, and contemporaneous documentation of decision-making processes.
         </p>
+        
+        <div className="mt-16 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+          <h3 className="text-xl font-serif font-medium mb-4">References & Sources</h3>
+          <ol className="text-sm text-zinc-600 dark:text-zinc-400 space-y-2 list-decimal list-inside">
+            <li><a href="https://www.gov.uk/government/organisations/companies-house" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">Companies House UK - Companies Act 2006</a></li>
+            <li><a href="https://www.legislation.gov.uk/ukpga/1992/12/part/II/chapter/I" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">Taxation of Chargeable Gains Act 1992 - Sections 192A-192C (SSE)</a></li>
+            <li><a href="https://www.gov.uk/hmrc-internal-manuals/international-manual" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">HMRC International Manual - Double Taxation Treaties</a></li>
+            <li><a href="https://www.legislation.gov.uk/ukpga/2022/10/contents" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">Economic Crime (Transparency and Enforcement) Act 2022</a></li>
+          </ol>
+          <p className="text-xs text-zinc-500 dark:text-zinc-600 mt-4 italic">
+            Last updated: December 18, 2024. Information based on current UK tax legislation and Companies House guidance.
+          </p>
+        </div>
       </>
     )
   },
@@ -187,6 +212,18 @@ export const INSIGHTS_DATA: InsightItem[] = [
         <p className="mb-6">
           The Digital Operational Resilience Act (DORA), Regulation (EU) 2022/2554, establishes a comprehensive ICT risk management framework for EU financial entities. DORA requirements include ICT risk management framework with governance, risk assessment, and control measures, incident reporting to regulators within strict timelines (major incidents within 4 hours), digital operational resilience testing including threat-led penetration testing (TLPT), third-party ICT service provider oversight with contractual arrangements and exit strategies, and information sharing arrangements on cyber threats and vulnerabilities.
         </p>
+        
+        <div className="mt-16 pt-8 border-t border-zinc-200 dark:border-zinc-800">
+          <h3 className="text-xl font-serif font-medium mb-4">References & Sources</h3>
+          <ol className="text-sm text-zinc-600 dark:text-zinc-400 space-y-2 list-decimal list-inside">
+            <li><a href="https://www.bankofengland.co.uk/prudential-regulation/publication/2021/march/operational-resilience-impact-tolerances-for-important-business-services-ps" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">Bank of England - Policy Statement PS21/3 on Operational Resilience</a></li>
+            <li><a href="https://www.fca.org.uk/publication/policy/ps21-3.pdf" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">FCA Policy Statement PS21/3 - Operational Resilience</a></li>
+            <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2554" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline">EU Regulation 2022/2554 - Digital Operational Resilience Act (DORA)</a></li>
+          </ol>
+          <p className="text-xs text-zinc-500 dark:text-zinc-600 mt-4 italic">
+            Last updated: November 22, 2024. Information based on UK PRA/FCA regulations and EU DORA requirements.
+          </p>
+        </div>
       </>
     )
   }
