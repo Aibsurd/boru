@@ -149,16 +149,17 @@ const Navbar: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex flex-col group z-50" aria-label="Boru Consulting Home">
-            <span className="font-serif text-3xl tracking-tight font-medium text-zinc-900 dark:text-white transition-colors duration-500 inline-flex items-baseline gap-[0.08em]" style={{ perspective: '1000px' }}>
+            <span className="font-serif text-3xl tracking-tight font-medium text-zinc-900 dark:text-white transition-colors duration-500 inline-flex items-center gap-[0.08em]" style={{ perspective: '1000px' }}>
               <span>B</span>
               <img 
                 src="/logo-o.png" 
                 alt="" 
-                className="h-[0.65em] w-auto inline-block" 
+                className="h-[0.8em] w-auto inline-block self-center" 
                 style={{ 
-                  transform: `rotateY(${logoRotation}deg) translateY(0.08em)`,
+                  transform: `rotateY(${logoRotation}deg)`,
                   transformStyle: 'preserve-3d',
-                  backfaceVisibility: 'visible'
+                  backfaceVisibility: 'visible',
+                  marginTop: '-0.05em'
                 }}
                 aria-hidden="true" 
               />
