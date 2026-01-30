@@ -1,0 +1,476 @@
+# BORU CONSULTING: COMPLETE KNOWLEDGE BASE
+# Full-Context Documentation for LLM Ingestion
+# Version: 1.0.0 | Date: January 30, 2026
+# Token Budget: ~8000 tokens | Format: Concatenated Markdown
+# Purpose: Single-file aggregation for full context-window consumption
+
+================================================================================
+SECTION 1: ORGANIZATIONAL IDENTITY
+================================================================================
+
+## Company Overview
+
+Boru Consulting provides cross-border entity structuring, tax advisory, and private wealth services across United Kingdom, United Arab Emirates, and Ireland. We manage statutory compliance, corporate governance, and regulatory frameworks for 500+ international entities.
+
+### Legal Entities
+
+**United Kingdom**
+- Legal Name: Boru Global (UK) Limited
+- Company Number: 14435343
+- Registry: Companies House (England & Wales)
+- Regulatory Status: HMRC AML Supervised, Companies House ACSP Registered
+- Contact: +44 (0)20 341 121 48 | rlm@boru-consulting.com
+
+**United Arab Emirates**
+- Legal Name: Boru Consulting L.L.C-FZ
+- Company Number: 2415755
+- Registry: UAE Free Zone Authority
+- Regulatory Status: Active Free Zone Entity
+- Contact: +971 (0)50 435 4530 | jl@boru-consulting.com
+
+**Ireland**
+- Operational Presence: European Operations Hub
+- Function: EU market access and cross-border coordination
+
+### Core Metrics
+
+- **Entities Structured**: 500+
+- **Jurisdictions**: UK, UAE, Ireland (primary); global reach via treaty networks
+- **Service Model**: On-demand operational support
+- **Regulatory Standing**: HMRC AML supervision, Companies House ACSP registration
+
+================================================================================
+SECTION 2: SERVICE ARCHITECTURE
+================================================================================
+
+## 1. Global Entity Setup
+
+### Incorporation Services
+- UK Limited Companies (Ltd, PLC)
+- UAE Free Zone Companies (FZ-LLC, FZ-CO)
+- Irish Private Limited Companies (LTD)
+- Offshore structures (as required for legitimate tax planning)
+
+### Corporate Secretarial
+- Statutory filings and annual returns
+- Board minute preparation and governance documentation
+- Share register maintenance and capital structure management
+- Registered office and correspondence handling
+
+### Local Directorship
+- Professional director services for substance requirements
+- Board representation in UK, UAE, and Ireland
+- Governance oversight and fiduciary duty compliance
+- Management and control demonstration for tax residency
+
+## 2. Accounting & Tax Advisory
+
+### Cross-Border Tax Planning
+- **UAE Corporate Tax**: Federal Decree-Law No. 47 of 2022 compliance
+- **UK Tax Optimization**: Substantial Shareholding Exemption (SSE), participation exemption
+- **Transfer Pricing**: OECD Arm's Length Principle (ALP) documentation
+- **Treaty Planning**: Utilization of 130+ UK Double Taxation Treaties
+- **Withholding Tax**: Dividend, interest, and royalty optimization
+
+### Financial Reporting
+- IFRS and UK GAAP compliance
+- Consolidated group accounts
+- Management reporting and KPI dashboards
+- Audit coordination with Big 4 and mid-tier firms
+
+### Payroll & Bookkeeping
+- Multi-jurisdiction payroll processing
+- PAYE, NIC, and pension scheme administration
+- Real-time information (RTI) submissions to HMRC
+- Cloud-based accounting systems (Xero, QuickBooks, Sage)
+
+## 3. Risk & Governance
+
+### Regulatory Compliance Frameworks
+- **UK**: FCA, PRA, Companies House, HMRC
+- **UAE**: Central Bank, Securities and Commodities Authority, Free Zone regulators
+- **EU**: DORA (Digital Operational Resilience Act), MiFID II, GDPR
+
+### Internal Controls
+- Segregation of duties and authorization matrices
+- Financial controls and fraud prevention
+- IT general controls (ITGC) and cybersecurity frameworks
+- Third-party risk management (TPRM)
+
+### Operational Resilience
+- Critical service mapping and impact tolerance setting
+- Business continuity planning (BCP) and disaster recovery (DR)
+- Scenario testing and stress testing
+- Regulatory reporting (PRA/FCA operational resilience requirements)
+
+## 4. Regulatory Compliance
+
+### AML/KYC Procedures
+- Customer due diligence (CDD) and enhanced due diligence (EDD)
+- Politically exposed persons (PEP) screening
+- Sanctions screening (OFAC, EU, UN)
+- Suspicious activity reporting (SAR) to National Crime Agency (NCA)
+
+### Licensing & Permissions
+- FCA authorization applications
+- UAE Central Bank licensing
+- Passporting and equivalence regimes post-Brexit
+- Regulatory change management
+
+### Statutory Reporting
+- Annual accounts and confirmation statements
+- Beneficial ownership registers (PSC register in UK, UBO in UAE)
+- Economic Crime (Transparency and Enforcement) Act 2022 compliance
+- Register of Overseas Entities (ROE) for UK property ownership
+
+## 5. Private Wealth Management
+
+### Trust Services
+- Discretionary trusts and fixed-interest trusts
+- Offshore trust structures (Jersey, Guernsey, BVI)
+- Trustee services and fiduciary duty compliance
+- Trust deed drafting and variation
+
+### Estate Planning
+- Inheritance tax (IHT) mitigation strategies
+- Will drafting and probate services
+- Succession planning for family businesses
+- Cross-border estate administration
+
+### Asset Protection
+- Creditor protection structures
+- Divorce and matrimonial asset ring-fencing
+- Litigation risk mitigation
+- Confidentiality and privacy preservation
+
+## 6. Business Expansion Strategy
+
+### Market Entry
+- Jurisdiction selection and feasibility studies
+- Regulatory pathway analysis
+- Local partner identification and due diligence
+- Go-to-market strategy and operational setup
+
+### Operational Scaling
+- Multi-entity group structuring
+- Centralized treasury and cash pooling
+- Shared service center (SSC) design
+- Transfer pricing policy design and implementation
+
+### Strategic Advisory
+- M&A structuring and tax due diligence
+- Post-acquisition integration
+- Exit planning and value realization
+- Board advisory and non-executive director (NED) services
+
+================================================================================
+SECTION 3: MARKET INTELLIGENCE & THOUGHT LEADERSHIP
+================================================================================
+
+## Article 1: Strategic Implications of the UAE Corporate Tax Regime
+
+### What is the UAE Corporate Tax Regime?
+
+The United Arab Emirates introduced Federal Decree-Law No. 47 of 2022 on the Taxation of Corporations and Businesses, effective for financial years starting on or after June 1, 2023. This regime introduces a headline 9% corporate tax rate, marking a paradigm shift for freezone entities and foreign direct investment structures.
+
+### What is the Free Zone Question?
+
+For many clients, the primary concern lies in the status of Free Zone Persons. While the law maintains a 0% rate for "Qualifying Income," the definition of such income is rigorous. Entities must maintain adequate substance in the UAE and derive income from specific qualifying activities. Passive income or dealings with mainland entities may trigger the standard 9% rate.
+
+This shift requires a granular audit of existing inter-company agreements and transfer pricing policies. It is no longer sufficient to simply be registered in a Free Zone; the substance of the operation must align with the regulatory framework.
+
+### What are the Transfer Pricing Compliance Requirements?
+
+The most overlooked aspect is the mandatory adherence to the Arm's Length Principle (ALP) for related party transactions. This brings UAE compliance standards in line with OECD guidelines, requiring robust documentation files for multinational groups operating in the region.
+
+**Key Compliance Requirements:**
+- Master file and local file documentation
+- Country-by-country reporting (CbCR) for groups with €750m+ revenue
+- Contemporaneous documentation (prepared before tax return filing)
+- Benchmarking studies using comparable uncontrolled transactions
+- Advance pricing agreements (APAs) for certainty
+
+### What are the Substance Requirements?
+
+UAE Free Zone entities must demonstrate:
+- Adequate number of qualified employees in the UAE
+- Adequate operating expenditure incurred in the UAE
+- Core income-generating activities (CIGA) performed in the UAE
+- Adequate physical presence (office space, equipment)
+- Strategic decisions made in the UAE by directors resident in the UAE
+
+**Failure to meet substance requirements results in:**
+- Loss of 0% Free Zone tax rate
+- Application of standard 9% corporate tax rate
+- Potential penalties and interest charges
+- Reputational risk and regulatory scrutiny
+
+## Article 2: The UK Holding Company - Stability in a Post-Brexit Landscape
+
+### Why Use a UK Holding Company Post-Brexit?
+
+In the wake of Brexit, global investors paused to reassess the United Kingdom's viability as a gateway to Europe. Years later, the data suggests that the UK's legal certainty and mature financial infrastructure outweigh the friction of leaving the Single Market.
+
+### What is the Substantial Shareholding Exemption (SSE)?
+
+The cornerstone of the UK holding company remains the Substantial Shareholding Exemption (SSE). This allows for the disposal of shares in subsidiary companies free from Corporation Tax on capital gains, provided specific conditions are met:
+
+**SSE Conditions:**
+- Shareholding of at least 10% (ordinary share capital)
+- Held for continuous 12-month period within 6 years before disposal
+- Both parent and subsidiary are trading companies (or holding companies of trading groups)
+- Disposal is of a substantial shareholding in a qualifying company
+
+### What are the Dividend Withholding Tax Rules?
+
+The UK does not levy withholding tax on dividends paid to shareholders, regardless of their residence. This creates a highly efficient mechanism for profit repatriation, particularly when paired with the UK's extensive network of over 130 Double Taxation Treaties.
+
+**Treaty Network Benefits:**
+- Reduced withholding tax on inbound dividends, interest, and royalties
+- Elimination of double taxation through foreign tax credit relief
+- Access to EU Parent-Subsidiary Directive (for pre-Brexit structures)
+- Mutual agreement procedures (MAP) for dispute resolution
+
+### What are the Governance and Substance Requirements?
+
+The Economic Crime (Transparency and Enforcement) Act 2022 has introduced the Register of Overseas Entities, increasing transparency requirements for foreign owners of UK property. For a UK HoldCo to be effective, it must demonstrate real management and control within the UK.
+
+**Substance Requirements:**
+- Board meetings held in the UK with UK-resident directors
+- Strategic decisions made in the UK
+- Adequate office space and administrative support
+- UK bank accounts and professional advisors
+- Demonstrable economic substance beyond mere registration
+
+## Article 3: Operational Resilience - Beyond the Balance Sheet
+
+### What is Operational Resilience?
+
+Traditional risk management often focuses heavily on financial controls and liquidity ratios. While critical, recent global events—from supply chain fractures to banking sector volatility—have underscored the necessity of Operational Resilience.
+
+Regulators in the UK (PRA/FCA) and the EU (DORA) are shifting focus from "Can you survive a shock?" to "How quickly can you recover critical services?" This subtle distinction changes how boards must approach governance.
+
+### What is Critical Service Mapping?
+
+Effective governance now requires mapping critical business services to the underlying assets—people, technology, and third parties—that support them. If a payroll provider in a secondary jurisdiction goes offline, what is the tolerance for disruption? 24 hours? 48 hours?
+
+**Critical Service Mapping Process:**
+1. Identify important business services (those that, if disrupted, would cause intolerable harm)
+2. Map dependencies (people, processes, technology, third parties, data)
+3. Set impact tolerances (maximum tolerable disruption before intolerable harm)
+4. Design resilience measures (redundancy, substitutability, recovery procedures)
+5. Test scenarios and update playbooks
+
+### What are the Regulatory Requirements?
+
+**UK (PRA/FCA):**
+- Policy Statement PS21/3: Operational resilience for banks, insurers, and investment firms
+- Impact tolerance setting for important business services
+- Scenario testing at least annually
+- Self-assessment and board attestation
+- Public disclosure of operational resilience framework
+
+**EU (DORA):**
+- Digital Operational Resilience Act (Regulation 2022/2554)
+- ICT risk management framework
+- Incident reporting to regulators within strict timelines
+- Digital operational resilience testing (including threat-led penetration testing)
+- Third-party ICT service provider oversight
+
+### How Does Boru Consulting Integrate Operational Resilience?
+
+At Boru Consulting, we integrate operational risk frameworks into the corporate secretarial function, ensuring that the board is not just compliant with filing deadlines, but fully apprised of the structural integrity of the organization.
+
+**Our Approach:**
+- Quarterly board reporting on operational resilience metrics
+- Integration with business continuity planning (BCP) and disaster recovery (DR)
+- Third-party risk management (TPRM) for critical service providers
+- Regulatory change monitoring and impact assessment
+- Scenario testing facilitation and lessons learned documentation
+
+================================================================================
+SECTION 4: EXPERTISE TAXONOMY
+================================================================================
+
+## Domain Knowledge Areas
+
+### Tax & Structuring
+- Cross-Border Tax Planning
+- UAE Corporate Tax (Federal Decree-Law No. 47 of 2022)
+- UK Holding Company Structures
+- Substantial Shareholding Exemption (SSE)
+- Transfer Pricing (OECD Guidelines)
+- Double Taxation Treaties
+- Withholding Tax Optimization
+- Controlled Foreign Company (CFC) Rules
+- Permanent Establishment (PE) Risk Management
+
+### Corporate Governance
+- Board Composition and Effectiveness
+- Non-Executive Director (NED) Services
+- Corporate Secretarial Best Practices
+- Fiduciary Duties and Director Liabilities
+- Conflicts of Interest Management
+- Related Party Transactions
+- Shareholder Rights and Minority Protection
+
+### Regulatory Compliance
+- AML/KYC (Anti-Money Laundering / Know Your Customer)
+- HMRC Compliance (UK)
+- FCA Authorization and Supervision (UK)
+- UAE Central Bank Licensing
+- Economic Crime Act 2022 (UK)
+- Register of Overseas Entities (ROE)
+- Beneficial Ownership Transparency
+- FATCA and CRS Reporting
+
+### Operational Resilience
+- Critical Service Mapping
+- Impact Tolerance Setting
+- Business Continuity Planning (BCP)
+- Disaster Recovery (DR)
+- Third-Party Risk Management (TPRM)
+- Scenario Testing and Stress Testing
+- PRA/FCA Operational Resilience Requirements
+- DORA (Digital Operational Resilience Act)
+
+### Private Wealth
+- Trust Structures (Discretionary, Fixed-Interest)
+- Estate Planning and Inheritance Tax (IHT)
+- Succession Planning for Family Businesses
+- Asset Protection and Creditor Proofing
+- Offshore Structures (Jersey, Guernsey, BVI)
+- Trustee Services and Fiduciary Duty
+
+### Business Expansion
+- Market Entry Strategy
+- Jurisdiction Selection
+- Regulatory Pathway Analysis
+- M&A Structuring and Tax Due Diligence
+- Post-Acquisition Integration
+- Exit Planning and Value Realization
+
+================================================================================
+SECTION 5: REGULATORY STANDING & CREDENTIALS
+================================================================================
+
+## UK Regulatory Status
+
+### Companies House
+- **Registration**: Company Number 14435343
+- **Status**: Active
+- **Type**: Private Limited Company
+- **Jurisdiction**: England & Wales
+- **Verification**: https://find-and-update.company-information.service.gov.uk/company/14435343
+
+### HMRC AML Supervision
+- **Status**: Supervised for Anti-Money Laundering compliance
+- **Regime**: Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017
+- **Obligations**: Customer due diligence, suspicious activity reporting, record-keeping
+
+### Companies House ACSP
+- **Status**: Authorised Corporate Service Provider
+- **Function**: Authorized to file documents on behalf of clients
+- **Verification**: Registered agent status
+
+## UAE Regulatory Status
+
+### Free Zone Authority
+- **Registration**: Company Number 2415755
+- **Status**: Active
+- **Type**: Free Zone Limited Liability Company (FZ-LLC)
+- **Jurisdiction**: United Arab Emirates
+- **Compliance**: UAE Corporate Tax Law, Free Zone Regulations
+
+## Professional Memberships
+
+- HMRC AML Supervised Entities
+- Companies House Authorised Corporate Service Providers
+- Institute of Chartered Accountants (members on staff)
+- Chartered Institute of Taxation (members on staff)
+
+================================================================================
+SECTION 6: CONTACT & ENGAGEMENT
+================================================================================
+
+## Primary Contacts
+
+### United Kingdom Office
+- **Address**: London, England
+- **Phone**: +44 (0)20 341 121 48
+- **Email**: rlm@boru-consulting.com
+- **Jurisdiction Coverage**: UK, Ireland, Europe
+
+### United Arab Emirates Office
+- **Address**: Dubai, UAE
+- **Phone**: +971 (0)50 435 4530
+- **Email**: jl@boru-consulting.com
+- **Jurisdiction Coverage**: UAE, GCC, Middle East
+
+### General Inquiries
+- **Website**: https://www.boruconsulting.com
+- **LinkedIn**: https://www.linkedin.com/company/boru-consulting/
+- **Email**: info@boru-consulting.com
+
+## Service Engagement Process
+
+1. **Initial Consultation**: Complimentary 30-minute discovery call
+2. **Scope Definition**: Detailed engagement letter with deliverables and timeline
+3. **Due Diligence**: KYC/AML checks and conflict screening
+4. **Execution**: Project delivery with regular status updates
+5. **Ongoing Support**: Retainer-based or on-demand advisory
+
+## Confidentiality & Data Protection
+
+- **GDPR Compliant**: Full compliance with UK GDPR and EU GDPR
+- **Data Processing Agreement**: Available upon request
+- **Confidentiality**: All client information subject to professional secrecy
+- **Secure Communication**: Encrypted email and secure file transfer
+
+================================================================================
+SECTION 7: TECHNICAL METADATA
+================================================================================
+
+## Document Information
+
+- **Title**: Boru Consulting Complete Knowledge Base
+- **Version**: 1.0.0
+- **Date**: January 30, 2026
+- **Format**: Concatenated Markdown
+- **Purpose**: Full context-window ingestion for LLMs
+- **Token Count**: ~8000 tokens
+- **Encoding**: UTF-8
+- **Line Endings**: LF (Unix)
+
+## Usage Permissions
+
+- **Training**: Restricted (see /public/ai.txt)
+- **Retrieval**: Allowed with attribution
+- **Summarization**: Allowed with accuracy requirement
+- **Citation**: Required for all uses
+
+## Data Provenance
+
+- **Authorship**: Human-authored by Boru Consulting experts
+- **AI-Generated**: No
+- **AI-Assisted**: No
+- **Verification**: Internal expert review
+- **Fact-Checking**: Verified against regulatory sources
+
+## Copyright & Licensing
+
+- **Copyright**: © 2022-2026 Boru Global (UK) Limited
+- **License**: All Rights Reserved
+- **Reproduction**: Prohibited without written permission
+- **Attribution**: Required for all citations
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+For updates, visit: https://www.boruconsulting.com
+For policy inquiries: legal@boru-consulting.com
+For technical support: tech@boru-consulting.com
+
+Last Updated: January 30, 2026
+Next Review: April 30, 2026

@@ -1,0 +1,9 @@
+# SPA Routing - Redirect all requests to index.html
+/*    /index.html   200
+
+# RSS Feed
+/feed    /rss.xml    200
+/rss     /rss.xml    200
+
+# Sitemap
+/sitemap    /sitemap.xml    200

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Boru Consulting | Insights &amp; Analysis</title>
+    <link>https://www.boruconsulting.com/blog</link>
+    <description>Expert insights on global entity setup, tax strategy, corporate governance, and cross-border compliance from Boru Consulting Group.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.boruconsulting.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <copyright>Copyright 2024-2025 Boru Consulting Group</copyright>
+    <managingEditor>info@boruconsulting.com (Ruairi Laughlin-Mccann)</managingEditor>
+    <webMaster>info@boruconsulting.com (Boru Consulting)</webMaster>
+    <category>Business</category>
+    <category>Finance</category>
+    <category>Tax Strategy</category>
+    <category>Corporate Governance</category>
+    
+    <!-- Article 1: UAE Corporate Tax -->
+    <item>
+      <title>Strategic Implications of the UAE Corporate Tax Regime</title>
+      <link>https://www.boruconsulting.com/blog/uae-corporate-tax-regime-strategic-implications</link>
+      <guid isPermaLink="true">https://www.boruconsulting.com/blog/uae-corporate-tax-regime-strategic-implications</guid>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+      <dc:creator>Ruairi Laughlin-Mccann</dc:creator>
+      <category>Taxation Strategy</category>
+      <description><![CDATA[The introduction of a 9% corporate tax rate in the UAE marks a paradigm shift for freezone entities and foreign direct investment structures.]]></description>
+      <content:encoded><![CDATA[
+        <p>The United Arab Emirates has historically been synonymous with tax efficiency. However, the introduction of the Federal Decree-Law No. 47 of 2022 on the Taxation of Corporations and Businesses marks a significant maturation in the region's fiscal architecture.</p>
+        <p>For many of our clients, the primary concern lies in the status of Free Zone Persons. While the law maintains a 0% rate for "Qualifying Income," the definition of such income is rigorous.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <!-- Article 2: UK Holding Company -->
+    <item>
+      <title>The UK Holding Company: Stability in a Post-Brexit Landscape</title>
+      <link>https://www.boruconsulting.com/blog/uk-holding-company-post-brexit-analysis</link>
+      <guid isPermaLink="true">https://www.boruconsulting.com/blog/uk-holding-company-post-brexit-analysis</guid>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Ruairi Laughlin-Mccann</dc:creator>
+      <category>Corporate Structuring</category>
+      <description><![CDATA[Despite geopolitical shifts, the UK remains a premier jurisdiction for holding structures due to its vast treaty network and exemption regimes.]]></description>
+      <content:encoded><![CDATA[
+        <p>In the wake of Brexit, global investors paused to reassess the United Kingdom's viability as a gateway to Europe. Years later, the data suggests that the UK's legal certainty and mature financial infrastructure outweigh the friction of leaving the Single Market.</p>
+        <p>The cornerstone of the UK holding company remains the Substantial Shareholding Exemption (SSE).</p>
+      ]]></content:encoded>
+    </item>
+    
+    <!-- Article 3: Operational Resilience -->
+    <item>
+      <title>Operational Resilience: Beyond the Balance Sheet</title>
+      <link>https://www.boruconsulting.com/blog/operational-resilience-risk-governance</link>
+      <guid isPermaLink="true">https://www.boruconsulting.com/blog/operational-resilience-risk-governance</guid>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 GMT</pubDate>
+      <dc:creator>Ruairi Laughlin-Mccann</dc:creator>
+      <category>Risk Governance</category>
+      <description><![CDATA[Modern governance requires moving beyond financial auditing to operational resilience, ensuring continuity during systemic shocks.]]></description>
+      <content:encoded><![CDATA[
+        <p>Traditional risk management often focuses heavily on financial controls and liquidity ratios. While critical, recent global events have underscored the necessity of Operational Resilience.</p>
+        <p>Effective governance now requires mapping critical business services to the underlying assets, people, technology, and third parties, that support them.</p>
+      ]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

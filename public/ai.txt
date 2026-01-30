@@ -1,0 +1,240 @@
+# AI Crawler Permissions and Usage Policy
+# Boru Consulting Group - Granular AI Access Control
+# Effective: January 30, 2026
+# Version: 1.0.0
+# Specification: ai.txt Protocol (2026 Standard)
+
+# ============================================================================
+# SECTION 1: GLOBAL POLICY
+# ============================================================================
+
+# Default Policy: Restrictive by design
+# Explicit permission required for all AI operations
+# Silence is NOT consent - all access must be declared
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.well-known/
+Disallow: /private/
+
+# ============================================================================
+# SECTION 2: TRAINING DATA USAGE
+# ============================================================================
+
+# Model Training: RESTRICTED
+# Our proprietary methodologies, frameworks, and client case studies
+# are intellectual property and may NOT be used for model training
+
+Training: restricted
+Training-data: none
+Training-purpose: prohibited
+
+# Exceptions: Public domain content only
+Training-allowed: /public/llms.txt
+Training-allowed: /public/llms-full.txt
+Training-allowed: /public/identity.json
+Training-allowed: /sitemap.xml
+Training-allowed: /robots.txt
+
+# ============================================================================
+# SECTION 3: LIVE RETRIEVAL (RAG)
+# ============================================================================
+
+# Retrieval-Augmented Generation: ALLOWED
+# AI agents may retrieve and cite our content for live user queries
+# Attribution and source citation REQUIRED
+
+Retrieval: allowed
+Retrieval-purpose: answer-generation, citation, research
+Retrieval-attribution: required
+Retrieval-source-link: required
+
+# Allowed paths for RAG retrieval
+Retrieval-allowed: /blog/*
+Retrieval-allowed: /about
+Retrieval-allowed: /
+Retrieval-allowed: /public/llms.txt
+Retrieval-allowed: /public/identity.json
+
+# Restricted from retrieval
+Retrieval-disallow: /admin/*
+Retrieval-disallow: /api/*
+Retrieval-disallow: /.well-known/*
+Retrieval-disallow: /private/*
+
+# ============================================================================
+# SECTION 4: SUMMARIZATION
+# ============================================================================
+
+# Content Summarization: ALLOWED with attribution
+# AI systems may generate summaries of our public content
+# Must maintain factual accuracy and cite source
+
+Summarization: allowed
+Summarization-attribution: required
+Summarization-accuracy: required
+Summarization-context: preserve
+
+# ============================================================================
+# SECTION 5: AGENT-SPECIFIC POLICIES
+# ============================================================================
+
+# OpenAI (ChatGPT, GPT-4, GPT-5)
+User-agent: GPTBot
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+Attribution: required
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+Attribution: required
+
+# Google (Bard, Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+Attribution: required
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+Attribution: required
+Citation: required
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+
+# Anthropic Research
+User-agent: anthropic-ai
+Allow: /
+Training: restricted
+Retrieval: allowed
+Summarization: allowed
+
+# ============================================================================
+# SECTION 6: DATA PROVENANCE & COMPLIANCE
+# ============================================================================
+
+# Copyright Status
+Copyright: All Rights Reserved
+Copyright-holder: Boru Global (UK) Limited
+Copyright-year: 2022-2026
+License: Proprietary
+
+# Data Provenance (C2PA Compliance)
+Provenance: human-authored
+Provenance-verification: available-on-request
+C2PA-compliant: true
+
+# Regulatory Compliance
+Compliance: AB-2013-CA
+Compliance: SB-24-205-CO
+Compliance: SB-942-CA
+Compliance: GDPR
+Compliance: UK-DPA-2018
+
+# Personal Data Protection
+Personal-data: none
+PII-collection: none
+GDPR-compliant: true
+
+# ============================================================================
+# SECTION 7: CONTENT AUTHENTICITY
+# ============================================================================
+
+# Human Authorship Declaration
+Content-type: human-authored
+AI-generated: false
+AI-assisted: false
+Verification: available
+
+# Expert Credentials
+Author-credentials: verified
+Author-qualifications: professional
+Expert-review: required
+Fact-checking: internal
+
+# ============================================================================
+# SECTION 8: RATE LIMITING & TECHNICAL CONSTRAINTS
+# ============================================================================
+
+# Crawl Rate Limits
+Crawl-delay: 1
+Request-rate: 60/minute
+Burst-limit: 10
+
+# Token Budget Management
+Max-tokens-per-request: 8000
+Context-window-optimization: enabled
+Chunking-strategy: semantic
+
+# ============================================================================
+# SECTION 9: CONTACT & DISPUTE RESOLUTION
+# ============================================================================
+
+# Policy Inquiries
+Contact: legal@boru-consulting.com
+Contact-type: ai-policy
+Response-time: 48-hours
+
+# Violation Reporting
+Abuse-contact: abuse@boru-consulting.com
+DMCA-agent: dmca@boru-consulting.com
+
+# Policy Updates
+Policy-url: https://www.boruconsulting.com/ai-policy
+Last-modified: 2026-01-30
+Review-frequency: quarterly
+
+# ============================================================================
+# SECTION 10: MACHINE-READABLE METADATA
+# ============================================================================
+
+# Structured Data References
+Schema-org: https://www.boruconsulting.com/#organization
+JSON-LD: embedded
+Knowledge-graph: enabled
+
+# Alternative Formats
+LLM-optimized: /public/llms.txt
+Full-context: /public/llms-full.txt
+Identity: /public/identity.json
+API-spec: /public/openapi.json
+
+# ============================================================================
+# END OF AI.TXT
+# ============================================================================
+
+# For human-readable policy, visit:
+# https://www.boruconsulting.com/ai-policy
+
+# For technical support:
+# Email: tech@boru-consulting.com
+# Response SLA: 24 hours
+
+# This file follows the ai.txt specification (2026)
+# Specification: https://ai-txt.org/spec/v1.0

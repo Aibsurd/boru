@@ -1,0 +1,139 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Boru Consulting",
+  "alternateName": "Boru Consulting Group",
+  "legalName": "Boru Global (UK) Limited",
+  "url": "https://www.boruconsulting.com",
+  "logo": "https://www.boruconsulting.com/logo.png",
+  "image": "https://www.boruconsulting.com/logo.png",
+  "description": "Global entity management, cross-border tax advisory, and private wealth services across UK, UAE, and Ireland. Specializing in corporate structuring, regulatory compliance, and international business expansion.",
+  "foundingDate": "2022",
+  "slogan": "Navigating international markets with clarity",
+  "knowsAbout": [
+    "Cross-Border Tax Planning",
+    "Corporate Governance",
+    "UAE Free Zones",
+    "UK Holding Companies",
+    "Transfer Pricing",
+    "AML/KYC Compliance",
+    "Trust Services",
+    "Entity Management",
+    "Regulatory Compliance",
+    "Private Wealth Management",
+    "Business Expansion",
+    "Operational Resilience"
+  ],
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "United Arab Emirates"
+    },
+    {
+      "@type": "Country",
+      "name": "Ireland"
+    }
+  ],
+  "serviceType": [
+    "Global Entity Setup",
+    "Accounting & Tax",
+    "Risk & Governance",
+    "Regulatory Compliance",
+    "Private Wealth",
+    "Business Expansion"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/boru-consulting/",
+    "https://find-and-update.company-information.service.gov.uk/company/14435343",
+    "https://www.boruconsulting.com"
+  ],
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "addressCountry": "GB",
+      "addressRegion": "England",
+      "addressLocality": "London",
+      "name": "UK Headquarters"
+    },
+    {
+      "@type": "PostalAddress",
+      "addressCountry": "AE",
+      "addressRegion": "Dubai",
+      "name": "UAE Office"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+44-20-341-121-48",
+      "contactType": "Customer Service",
+      "areaServed": "GB",
+      "availableLanguage": ["English"],
+      "email": "rlm@boru-consulting.com"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971-50-435-4530",
+      "contactType": "Customer Service",
+      "areaServed": "AE",
+      "availableLanguage": ["English", "Arabic"],
+      "email": "jl@boru-consulting.com"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "500",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": "500+",
+    "unitText": "Entities Structured"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "UK Company Number",
+      "value": "14435343"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "UAE Company Number",
+      "value": "2415755"
+    }
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "HMRC AML Supervised Entities"
+    },
+    {
+      "@type": "Organization",
+      "name": "Companies House Authorised Corporate Service Providers"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Registration",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Companies House"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "AML Supervision",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "HMRC"
+      }
+    }
+  ]
+}

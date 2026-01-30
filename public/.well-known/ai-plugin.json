@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Boru Consulting",
+  "name_for_model": "boru_consulting",
+  "description_for_human": "Expert consulting services for global entity setup, tax compliance, and corporate governance across UK, UAE, and Ireland.",
+  "description_for_model": "Boru Consulting Group provides professional services including: global entity setup and incorporation, cross-border tax compliance and planning, risk governance and internal audit, private wealth management and trust services, corporate secretarial services, and regulatory compliance (AML/KYC). Operating in UK, UAE, and Ireland with expertise in UAE corporate tax, UK holding companies, Brexit implications, transfer pricing, and operational resilience.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.boruconsulting.com/openapi.json"
+  },
+  "logo_url": "https://www.boruconsulting.com/logo.png",
+  "contact_email": "info@boruconsulting.com",
+  "legal_info_url": "https://www.boruconsulting.com/#contact"
+}

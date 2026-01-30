@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Boru Consulting Group",
+  "description": "Boru Consulting provides expert services in global entity setup, cross-border tax compliance, risk governance, private wealth management, and corporate secretarial services across the UK, UAE, and Ireland.",
+  "url": "https://www.boruconsulting.com",
+  "logo": "https://www.boruconsulting.com/logo.png",
+  "foundingDate": "2020",
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "United Arab Emirates"
+    },
+    {
+      "@type": "Country",
+      "name": "Ireland"
+    }
+  ],
+  "serviceType": [
+    "Global Entity Setup",
+    "Cross-border Tax Compliance",
+    "Risk Governance",
+    "Private Wealth Management",
+    "Corporate Secretarial Services",
+    "Internal Audit",
+    "Regulatory Compliance"
+  ],
+  "knowsAbout": [
+    "UAE Corporate Tax",
+    "UK Holding Companies",
+    "Free Zone Structures",
+    "Transfer Pricing",
+    "OECD Guidelines",
+    "Brexit Implications",
+    "Operational Resilience",
+    "AML/KYC Compliance",
+    "Trust Services",
+    "Estate Planning"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+44-20-341-121-48",
+      "contactType": "customer service",
+      "areaServed": "GB",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971-50-435-4530",
+      "contactType": "customer service",
+      "areaServed": "AE",
+      "availableLanguage": "English"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+353-21-202-1373",
+      "contactType": "customer service",
+      "areaServed": "IE",
+      "availableLanguage": "English"
+    }
+  ],
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "66 Canterbury Avenue, Sidcup",
+      "addressLocality": "London",
+      "postalCode": "DA15 9AS",
+      "addressCountry": "GB"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/boru-consulting",
+    "https://twitter.com/boruconsulting"
+  ],
+  "blog": {
+    "@type": "Blog",
+    "url": "https://www.boruconsulting.com/blog",
+    "name": "Boru Consulting Insights",
+    "description": "Expert insights on global tax strategy, corporate governance, and cross-border compliance",
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Strategic Implications of the UAE Corporate Tax Regime",
+        "url": "https://www.boruconsulting.com/blog/uae-corporate-tax-regime-strategic-implications",
+        "datePublished": "2023-10-12",
+        "keywords": "UAE Corporate Tax, Free Zone Tax, UAE Business, Transfer Pricing, OECD Guidelines",
+        "articleSection": "Taxation Strategy"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "The UK Holding Company: Stability in a Post-Brexit Landscape",
+        "url": "https://www.boruconsulting.com/blog/uk-holding-company-post-brexit-analysis",
+        "datePublished": "2023-09-28",
+        "keywords": "UK Holding Company, Brexit, Corporate Structure, SSE, Tax Planning",
+        "articleSection": "Corporate Structuring"
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Operational Resilience: Beyond the Balance Sheet",
+        "url": "https://www.boruconsulting.com/blog/operational-resilience-risk-governance",
+        "datePublished": "2023-08-15",
+        "keywords": "Operational Resilience, Risk Management, Corporate Governance, Business Continuity, Regulatory Compliance",
+        "articleSection": "Risk Governance"
+      }
+    ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.boruconsulting.com/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
