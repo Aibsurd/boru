@@ -26,17 +26,17 @@ const Footer = memo(() => {
            <div className="normal-case tracking-normal leading-relaxed text-[9px]">
              <div className={`text-zinc-500 dark:text-zinc-500 transition-all duration-300 ${isExpanded ? '' : 'line-clamp-2'}`}>
                <p className="mb-3">
-                 Boru Consulting L.L.C-FZ is a company registered in U.A.E. under Company No. 2415755, with its registered office at Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba, Dubai, and is licensed to provide Accounting, Bookkeeping, Tax Consulting, Auditing, Management Consultancy and Corporate Services. <a href="https://www.moec.gov.ae/en/business-license-search" target="_blank" rel="noopener noreferrer" className="text-gold-600 dark:text-gold-500 hover:underline">UAE Ministry of Economy Business License Search</a>
+                 Boru Consulting L.L.C-FZ is a company registered in U.A.E. under Company No. 2415755, with its registered office at Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba, Dubai, and is licensed to provide Accounting, Bookkeeping, Tax Consulting, Auditing, Management Consultancy and Corporate Services. <a href="https://www.moec.gov.ae/en/business-license-search" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline underline">UAE Ministry of Economy Business License Search</a>
                </p>
                
                {isExpanded && (
                  <>
                    <p className="mb-3">
-                     Boru Global (UK) Limited, trading as Boru Consulting, is a company registered in England and Wales under Company No. 14435343, with its registered office at 66 Canterbury Avenue, Sidcup, DA15 9AS, and is supervised by HM Revenue & Customs for Anti-Money Laundering purposes as an Accounting & Corporate Service Provider (Reg. No. XCML0000187357) <a href="https://www.tax.service.gov.uk/anti-money-laundering/search" target="_blank" rel="noopener noreferrer" className="text-gold-600 dark:text-gold-500 hover:underline">HMRC AML Supervised Business Register</a>.
+                     Boru Global (UK) Limited, trading as Boru Consulting, is a company registered in England and Wales under Company No. 14435343, with its registered office at 66 Canterbury Avenue, Sidcup, DA15 9AS, and is supervised by HM Revenue & Customs for Anti-Money Laundering purposes as an Accounting & Corporate Service Provider (Reg. No. XCML0000187357) <a href="https://www.tax.service.gov.uk/anti-money-laundering/search" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline underline">HMRC AML Supervised Business Register</a>.
                    </p>
                    
                    <p>
-                     Boru Consulting is listed at Companies House in the UK as a Company Formation and Secretarial Agent <a href="https://www.gov.uk/government/organisations/companies-house" target="_blank" rel="noopener noreferrer" className="text-gold-600 dark:text-gold-500 hover:underline">Companies House List</a> and is registered with Companies House as an Authorised Corporate Service Provider (ACSP) under the Economic Crime and Corporate Transparency Act 2023.
+                     Boru Consulting is listed at Companies House in the UK as a Company Formation and Secretarial Agent <a href="https://www.gov.uk/government/organisations/companies-house" target="_blank" rel="noopener noreferrer" className="text-zinc-700 dark:text-zinc-300 hover:underline underline">Companies House List</a> and is registered with Companies House as an Authorised Corporate Service Provider (ACSP) under the Economic Crime and Corporate Transparency Act 2023.
                    </p>
                  </>
                )}
