@@ -122,19 +122,51 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "ConsultingService",
+          "@type": "Organization",
           "@id": "https://www.boruconsulting.com/#organization",
           "name": "Boru Consulting Group",
+          "legalName": "Boru Consulting Group",
           "url": "https://www.boruconsulting.com/",
+          "logo": "https://www.boruconsulting.com/logo-o.png",
           "description": "Boru Consulting supports global growth by managing the complexity of cross-border business, offering accounting, tax, entity setup, risk governance, and private wealth services.",
+          "foundingDate": "2020",
+          "email": "info@boru-consulting.com",
+          "telephone": "+44-20-341-121-48",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "66 Canterbury Avenue, Sidcup",
+            "addressLocality": "London",
+            "postalCode": "DA15 9AS",
+            "addressCountry": "GB"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/boru-consulting/",
+            "https://www.facebook.com/share/17gAvVpyPq/"
+          ],
           "knowsAbout": [
             "Global Entity Setup",
             "Cross-border Tax Compliance",
             "Risk Governance",
             "Private Wealth Management",
-            "Internal Audit"
+            "Internal Audit",
+            "Corporate Secretarial Services",
+            "UK Company Formation",
+            "UAE Freezone Setup"
           ],
-          "areaServed": ["GB", "AE", "IE"],
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United Kingdom"
+            },
+            {
+              "@type": "Country",
+              "name": "United Arab Emirates"
+            },
+            {
+              "@type": "Country",
+              "name": "Ireland"
+            }
+          ],
           "contactPoint": [
             {
               "@type": "ContactPoint",
@@ -157,6 +189,35 @@
               "areaServed": "IE",
               "availableLanguage": "English"
             }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.boruconsulting.com/#website",
+          "url": "https://www.boruconsulting.com/",
+          "name": "Boru Consulting",
+          "description": "Global Strategic Excellence & Entity Management",
+          "publisher": {
+            "@id": "https://www.boruconsulting.com/#organization"
+          },
+          "inLanguage": "en-GB"
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://www.boruconsulting.com/#service",
+          "name": "Boru Consulting Group",
+          "url": "https://www.boruconsulting.com/",
+          "description": "Professional consulting services for global entity setup, tax compliance, risk governance, and private wealth management.",
+          "provider": {
+            "@id": "https://www.boruconsulting.com/#organization"
+          },
+          "areaServed": ["GB", "AE", "IE"],
+          "serviceType": [
+            "Global Entity Setup",
+            "Tax Compliance",
+            "Risk Governance",
+            "Private Wealth Management",
+            "Corporate Secretarial"
           ]
         },
         {

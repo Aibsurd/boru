@@ -22,6 +22,13 @@ const Footer = memo(() => {
         <div className="flex flex-col space-y-3 max-w-4xl">
            <p className="text-zinc-500 dark:text-zinc-500">&copy; {new Date().getFullYear()} Boru Consulting Group.</p>
            
+           {/* Legal Links */}
+           <div className="flex gap-4 text-[9px] normal-case">
+             <a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-300 transition-colors underline">Privacy Policy</a>
+             <span className="text-zinc-400">•</span>
+             <a href="/terms-of-service.html" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-300 transition-colors underline">Terms of Service</a>
+           </div>
+           
            {/* Expandable Legal Information */}
            <div className="normal-case tracking-normal leading-relaxed text-[9px]">
              <div className={`text-zinc-500 dark:text-zinc-500 transition-all duration-300 ${isExpanded ? '' : 'line-clamp-2'}`}>
