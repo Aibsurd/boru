@@ -17,7 +17,7 @@ const Footer = memo(() => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <footer className="bg-zinc-50 dark:bg-zinc-975 py-8 border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
+    <footer className="bg-warm-50 dark:bg-zinc-975 py-8 border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-end text-[10px] text-zinc-500 dark:text-zinc-600 uppercase tracking-[0.2em] space-y-6 md:space-y-0">
         <div className="flex flex-col space-y-3 max-w-4xl">
            <p className="text-zinc-500 dark:text-zinc-500">&copy; {new Date().getFullYear()} Boru Consulting Group.</p>

@@ -43,7 +43,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
       }
 
       return (
-        <div className="min-h-screen bg-zinc-50 dark:bg-zinc-975 flex items-center justify-center px-6 transition-colors duration-500">
+        <div className="min-h-screen bg-warm-50 dark:bg-zinc-975 flex items-center justify-center px-6 transition-colors duration-500">
           <div className="max-w-2xl w-full text-center">
             <div className="mb-8 flex justify-center">
               <div className="w-16 h-16 border border-zinc-300 dark:border-zinc-700 rounded-full flex items-center justify-center">

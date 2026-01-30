@@ -12,7 +12,7 @@ const AboutPage = memo(() => {
         <link rel="canonical" href="https://www.boruconsulting.com/about" />
       </Helmet>
 
-      <article className="min-h-screen bg-zinc-50 dark:bg-zinc-975 pt-32 pb-24 transition-colors duration-500">
+      <article className="min-h-screen bg-warm-50 dark:bg-zinc-975 pt-32 pb-24 transition-colors duration-500">
         <div className="max-w-5xl mx-auto px-6 md:px-12">
           
           {/* Navigation */}

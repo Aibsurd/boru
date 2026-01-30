@@ -59,7 +59,7 @@ const Contact = memo(() => {
   };
 
   return (
-    <section className="py-20 lg:py-24 bg-zinc-50 dark:bg-zinc-975 relative border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
+    <section className="py-20 lg:py-24 bg-warm-50 dark:bg-zinc-975 relative border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
           
@@ -129,7 +129,7 @@ const Contact = memo(() => {
             <form onSubmit={handleSubmit} className="space-y-10 relative h-full flex flex-col justify-center" aria-label="Contact form">
               {/* Success Overlay */}
               {status === 'success' && (
-                <div className="absolute inset-0 bg-zinc-50/95 dark:bg-zinc-975/95 backdrop-blur-sm z-20 flex items-center justify-center animate-fade-in border border-zinc-200 dark:border-white/10 rounded-lg">
+                <div className="absolute inset-0 bg-warm-50/95 dark:bg-zinc-975/95 backdrop-blur-sm z-20 flex items-center justify-center animate-fade-in border border-zinc-200 dark:border-white/10 rounded-lg">
                     <div className="text-center p-8">
                         <CheckCircle2 className="w-12 h-12 text-gold-600 dark:text-gold-500 mx-auto mb-4" />
                         <h3 className="text-3xl font-serif text-zinc-900 dark:text-white mb-2 font-medium">Request Received</h3>

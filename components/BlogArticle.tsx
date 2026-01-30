@@ -148,7 +148,7 @@ const BlogArticle = memo(() => {
               </header>
 
               {/* Key Takeaways Box */}
-              <div className="bg-zinc-50 dark:bg-zinc-900 border-l-4 border-gold-600 dark:border-gold-500 p-8 mb-12">
+              <div className="bg-warm-100 dark:bg-zinc-900 border-l-4 border-gold-600 dark:border-gold-500 p-8 mb-12">
                 <h2 className="font-serif text-xl text-zinc-900 dark:text-white font-medium tracking-tight mb-4">
                   Key Takeaways
                 </h2>

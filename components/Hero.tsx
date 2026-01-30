@@ -3,7 +3,7 @@ import { ArrowDown } from './Icons';
 
 const Hero = memo(() => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-zinc-50 dark:bg-zinc-975 transition-colors duration-500">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-warm-50 dark:bg-zinc-975 transition-colors duration-500">
       {/* Abstract Architectural Grid Background */}
       <div className="absolute inset-0 z-0 pointer-events-none">
          {/* Vertical Lines */}

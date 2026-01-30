@@ -91,7 +91,7 @@ const AboutPage = lazy(() =>
 
 // Minimalist, brand-aligned loader prevents CLS during chunk loading
 const SectionLoader = () => (
-  <div className="w-full py-24 flex items-center justify-center bg-zinc-50 dark:bg-zinc-975" aria-busy="true" aria-label="Loading section">
+  <div className="w-full py-24 flex items-center justify-center bg-warm-50 dark:bg-zinc-975" aria-busy="true" aria-label="Loading section">
     <div className="w-6 h-6 border-2 border-gold-500/20 border-t-gold-500 rounded-full animate-spin"></div>
   </div>
 );
@@ -132,7 +132,7 @@ function App() {
     <ThemeProvider>
       <CorporateSchema />
       <ScrollToTop />
-      <div className="bg-zinc-50 dark:bg-zinc-975 min-h-screen text-zinc-900 dark:text-zinc-100 font-sans selection:bg-gold-500/30 selection:text-black dark:selection:text-white transition-colors duration-500">
+      <div className="bg-warm-50 dark:bg-zinc-975 min-h-screen text-zinc-900 dark:text-zinc-100 font-sans selection:bg-gold-500/30 selection:text-black dark:selection:text-white transition-colors duration-500">
         <Navbar />
         
         <Routes>
@@ -158,7 +158,7 @@ function App() {
           <TrustAnchor />
         </Suspense>
         
-        <Suspense fallback={<div className="h-12 bg-zinc-50 dark:bg-zinc-975" />}>
+        <Suspense fallback={<div className="h-12 bg-warm-50 dark:bg-zinc-975" />}>
           <Footer />
         </Suspense>
       </div>

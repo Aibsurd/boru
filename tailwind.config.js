@@ -25,6 +25,12 @@ export default {
         zinc: {
           950: '#09090b',
           975: '#050505', 
+        },
+        // Warm off-white for light theme (better readability)
+        warm: {
+          50: '#f5f3ed',   // Main background - warm beige
+          100: '#ebe8df',  // Slightly darker for cards/sections
+          200: '#d9d4c7',  // Borders and dividers
         }
       },
       letterSpacing: {

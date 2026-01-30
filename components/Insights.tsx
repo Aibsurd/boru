@@ -8,7 +8,7 @@ const Insights = memo(() => {
   const recentArticles = INSIGHTS_DATA.slice(0, 3);
 
   return (
-    <section className="py-32 md:py-48 bg-zinc-50 dark:bg-zinc-975 relative border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
+    <section className="py-32 md:py-48 bg-warm-50 dark:bg-zinc-975 relative border-t border-zinc-200 dark:border-white/5 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-20">

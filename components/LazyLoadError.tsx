@@ -16,7 +16,7 @@ const LazyLoadError: React.FC<LazyLoadErrorProps> = memo(({ componentName, onRet
   };
 
   return (
-    <div className="w-full py-24 flex items-center justify-center bg-zinc-50 dark:bg-zinc-975 transition-colors duration-500">
+    <div className="w-full py-24 flex items-center justify-center bg-warm-50 dark:bg-zinc-975 transition-colors duration-500">
       <div className="max-w-md text-center px-6">
         <div className="mb-6 flex justify-center">
           <div className="w-12 h-12 border border-zinc-300 dark:border-zinc-700 rounded-full flex items-center justify-center">

@@ -233,7 +233,7 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu Overlay */}
       <div 
         id="mobile-menu"
-        className={`fixed inset-0 bg-zinc-50 dark:bg-zinc-950 z-30 transition-transform duration-500 ease-in-out md:hidden flex flex-col justify-center items-center space-y-8 ${
+        className={`fixed inset-0 bg-warm-50 dark:bg-zinc-950 z-30 transition-transform duration-500 ease-in-out md:hidden flex flex-col justify-center items-center space-y-8 ${
           mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
         }`}
         aria-hidden={!mobileMenuOpen}

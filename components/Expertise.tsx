@@ -3,7 +3,7 @@ import { SERVICES } from '../constants';
 
 const Expertise = memo(() => {
   return (
-    <section className="py-32 md:py-48 bg-zinc-50 dark:bg-zinc-975 relative transition-colors duration-500">
+    <section className="py-32 md:py-48 bg-warm-50 dark:bg-zinc-975 relative transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 pb-8 border-b border-zinc-200 dark:border-white/10 transition-colors duration-500">
           <div className="max-w-xl">
