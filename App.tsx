@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import LazyLoadError from './components/LazyLoadError';
 import CorporateSchema from './components/CorporateSchema';
+import ScrollToTop from './components/ScrollToTop';
 import { ThemeProvider } from './context/ThemeContext';
 
 // Optimization: Lazy load below-the-fold heavy components to unblock Main Thread
@@ -130,6 +131,7 @@ function App() {
   return (
     <ThemeProvider>
       <CorporateSchema />
+      <ScrollToTop />
       <div className="bg-zinc-50 dark:bg-zinc-975 min-h-screen text-zinc-900 dark:text-zinc-100 font-sans selection:bg-gold-500/30 selection:text-black dark:selection:text-white transition-colors duration-500">
         <Navbar />
         
